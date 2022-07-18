@@ -1,0 +1,30 @@
+body {
+  max-width: 100%;
+  background-color: rgba(234, 240, 239, 0.863);
+}
+.pageHeader {
+  color: rgb(69, 128, 180);
+  font-size: 2em;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2em 1em;
+}
+
+.shop {
+  display: flex;
+  justify-content: center;
+  padding: 0.2em;
+  font: 1.2em sans-serif, Times;
+  margin: 0em 1em;
+  border: 1px dashed rgb(17, 16, 16);
+  width: 28em;
+  height: 2em;
+  color: brown;
+  align-items: center;
+  /* float: left; */
+}
